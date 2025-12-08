@@ -1,0 +1,12 @@
+﻿fileFormatVersion: 2
+guid: cba39e757cd04209a27e35239e0d473f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _journalsDatabaseEditor: {fileID: 9197481963319205126, guid: c37c1f648739557478af1242957f08bc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

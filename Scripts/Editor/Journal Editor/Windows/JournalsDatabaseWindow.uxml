@@ -1,0 +1,3 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="Please edit the sub-objects (check project view)" style="background-color: rgb(202, 112, 20); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 40px; background-position-x: center 0; -unity-text-align: middle-center; color: rgb(0, 0, 0); -unity-font-style: bold;" />
+</engine:UXML>

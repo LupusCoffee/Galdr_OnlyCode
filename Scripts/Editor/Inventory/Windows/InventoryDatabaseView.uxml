@@ -1,0 +1,22 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:MultiColumnListView show-add-remove-footer="true" name="MultiColumnListView" binding-path="Artifacts" show-bound-collection-size="false" reorder-mode="Simple" show-foldout-header="true" reorderable="true" virtualization-method="DynamicHeight" header-title="Artifacts">
+        <engine:Columns>
+            <engine:Column name="id" title="ID" binding-path="id" stretchable="false" visible="true" optional="true" min-width="125px" />
+            <engine:Column name="interactable" title="Interactable" binding-path="interactable" stretchable="true" />
+        </engine:Columns>
+    </engine:MultiColumnListView>
+    <engine:MultiColumnListView show-add-remove-footer="true" name="MultiColumnListView" binding-path="Songs" show-bound-collection-size="false" reorder-mode="Simple" show-foldout-header="true" reorderable="true" virtualization-method="DynamicHeight" header-title="Song Attributes">
+        <engine:Columns>
+            <engine:Column name="id" title="ID" binding-path="id" stretchable="false" visible="true" optional="true" min-width="125px" />
+            <engine:Column name="InteractableSpellAttribute" title="Spell Attribute" binding-path="InteractableSpellAttribute" stretchable="true" />
+            <engine:Column name="AutomaticUnlock" title="Automatic Unlock" binding-path="AutomaticUnlock" stretchable="false" />
+        </engine:Columns>
+    </engine:MultiColumnListView>
+    <engine:MultiColumnListView show-add-remove-footer="true" name="MultiColumnListView" binding-path="StoryItems" show-bound-collection-size="false" reorder-mode="Simple" show-foldout-header="true" reorderable="true" virtualization-method="DynamicHeight" header-title="World / Story">
+        <engine:Columns>
+            <engine:Column name="id" title="ID" binding-path="id" stretchable="false" visible="true" optional="true" min-width="125px" />
+            <engine:Column name="WorldEvents" title="WorldEvents" binding-path="worldEventObject" stretchable="true" />
+        </engine:Columns>
+    </engine:MultiColumnListView>
+    <engine:Button text="Regenerate IDs (for testing)" name="btn-regenerate" />
+</engine:UXML>
