@@ -402,11 +402,7 @@ public class InputSpellController : MonoBehaviour
     private bool TrySetSpellTargetNoteSequence(SO_SpellPart_Target target)
     {
         spellTargetNoteSequenceToMatch = target.GetNoteSequence();
-        if (spellTargetNoteSequenceToMatch.Count == 0)
-        {
-            spellTargetNoteSequenceToMatch = null;
-            return false;
-        }
+        if (spellTargetNoteSequenceToMatch.Count == 0) return false;
         
         spellTargetNoteSequenceToMatchProgress = 0;
         return true;
